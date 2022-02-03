@@ -28,3 +28,7 @@ Note: You have to check the condition that if somebody input student mark as les
 "Write a java program to handle exception handling mechanism through user-oriented exception handling.
 
 Lets say you deposit $600 in a saving account. You then widthdraw $100. Now you have $500 remaining. If you attempt to widthdraw $600, your program should throw an InSufficientBalance Exception."
+
+## Exercise 3.1 - Implement A Program with String Manipulation & Exeception Handling
+
+Write a java program that accepts a user's full name. If the user's full name has more than 10-15 characters, throw a string length too long exception. Otherwise, separate the name into first middle and last names.
