@@ -32,3 +32,13 @@ Lets say you deposit $600 in a saving account. You then withdraw $100. Now you h
 ## Exercise 3.1 - Implement A Program with String Manipulation & Exeception Handling
 
 Write a java program that accepts a user's full name. If the user's full name has more than 10-15 characters, throw a string length too long exception. Otherwise, separate the name into first middle and last names.
+
+## Exercise 4 - String Manipulation
+
+Write a java program showing the following String manipulation strategies:
+**_ note: Use StringTokenizer and StringBuilder class for some of the examples _**
+
+1. 'first_middle_last' to 'first:middle:last'
+2. 'first_middle_last' to 'first middle last'
+3. 'first middle last' to 'first middle last trevialdata'
+4. 'dd/mm/yyyy' to day: dd month: mm year: yyyy
