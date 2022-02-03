@@ -15,7 +15,7 @@ public class BankDriver {
 			System.out.println(e);
 		}
 		
-		//	Execption Condition
+		//	Exception Condition
 		try {
 			float amount = test_customer.withdraw(200);
 			System.out.println("You successfully withdrew $"+ amount +".");
