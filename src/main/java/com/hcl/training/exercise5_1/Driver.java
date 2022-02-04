@@ -11,35 +11,59 @@ public class Driver {
 
 		for (int i = 0; i < 10; i++) {
 			int ran = (int) (Math.random() * 40);
-			patients.add(new Patient(i, "Patient " + (i+2), ran));
+			patients.add(new Patient(i, "Patient " + (i + 2), ran));
 		}
 
 		for (int i = 0; i < 5; i++) {
-			doctors.add(new Doctor(i, "Doctor " + (i+2), "Specialty " + (i+5)));
+			doctors.add(new Doctor(i, "Doctor " + (i + 2), "Specialty " + (i + 5)));
 		}
 
 		// sort patients based on age
 		System.out.println("Sorting Patient by Age:");
 		Collections.sort(patients);
 		for (Patient p : patients) {
-            System.out.println("\t"+p);
-        }
+			System.out.println("\t" + p);
+		}
 		System.out.println();
-		
+
 		// sort patients based on id
 		System.out.println("Sorting Patient by ID:");
 		Collections.sort(patients, Patient.ComPatientID);
 		for (Patient p : patients) {
-            System.out.println("\t"+p);
-        }
+			System.out.println("\t" + p);
+		}
 		System.out.println();
-		
+
 		// sort patients based on name
 		System.out.println("Sorting Patient by Name:");
 		Collections.sort(patients, Patient.ComPatientName);
 		for (Patient p : patients) {
-            System.out.println("\t"+p);
-        }
+			System.out.println("\t" + p);
+		}
+		System.out.println();
+
+		// sort Doctors based on Name
+		System.out.println("Sorting Doctor by Name:");
+		Collections.sort(doctors);
+		for (Doctor d : doctors) {
+			System.out.println("\t" + d);
+		}
+		System.out.println();
+
+		// sort patients based on id
+		System.out.println("Sorting Doctor by ID:");
+		Collections.sort(doctors, Doctor.ComDoctorID);
+		for (Doctor d : doctors) {
+			System.out.println("\t" + d);
+		}
+		System.out.println();
+
+		// sort patients based on name
+		System.out.println("Sorting Doctor by Specialty:");
+		Collections.sort(doctors, Doctor.ComSpecialty);
+		for (Doctor d : doctors) {
+			System.out.println("\t" + d);
+		}
 
 	}
 
