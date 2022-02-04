@@ -42,3 +42,7 @@ Write a java program showing the following String manipulation strategies:
 2. 'first_middle_last' to 'first middle last'
 3. 'first middle last' to 'first middle last trevialdata'
 4. 'dd/mm/yyyy' to day: dd month: mm year: yyyy
+
+## Exercise 5 - LinkList Manipulation
+
+Write a java program showing how to use the methods in a the LinkedList class.
