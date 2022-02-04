@@ -46,3 +46,14 @@ Write a java program showing the following String manipulation strategies:
 ## Exercise 5 - LinkList Manipulation
 
 Write a java program showing how to use the methods in a the LinkedList class.
+
+## Exercise 5 - Sorting List
+
+Write a java program showing how to sort using comparable and comporator.
+
+Create the following classes with the specified attributes:
+
+    Patient - PatientID, PatientName, PatientAge
+    Doctor - DoctorID, DoctorName, Specialty
+
+Populate an ArrayList and sort the list based on each class attribute.
