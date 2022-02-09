@@ -57,3 +57,37 @@ Create the following classes with the specified attributes:
     Doctor - DoctorID, DoctorName, Specialty
 
 Populate an ArrayList and sort the list based on each class attribute.
+
+## Exercise 6 -
+
+Rewiew, throughself-study, the given concepts below and implement at least 1 program for each concept.
+Lambda expressions,
+Method references,
+Functional interfaces,
+Stream API,Parallel Stream,
+Default methods,
+Static methods in interface,
+Optional class,
+Collectors class,
+ForEach() method,
+Predicate
+BiFunction examples
+
+## Exercise 6.1 -
+
+2.Implement a Java program with Stream API and without the Stream API, consider filter condition as for example you had employee list filter the employee records whose salary >1000 $ ,Name Startes with B & D and age > 30 .
+
+## Exercise 6.2 -
+
+Write a Employee Management application to do the given below operations. Assume Employee has attributes as EmpID,EmpName,DOB,Salary,Age
+
+1.To Insert the record in Employee DB input through command line arguments.
+2.To retrieve all the Employee information.
+3.To retrieve any employee record input given through command line arguments.
+4.To update any particular employee record input given through command line arguments.
+5.To delete any particular employee record input given through command line arguments.
+6.Lets say you retrieve all the employee information then you need to filter the records by the condition sal>5000 and employee name starts with B and age >21
+
+after implementation of these menus driven program, you can further improve the program with the help of stream ,lambda expression and functional interface.
+
+Use maven project, proper java coding convention ,exception handling wherever you feel you can use Java 8 also.
