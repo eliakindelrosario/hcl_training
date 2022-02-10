@@ -91,3 +91,15 @@ Write a Employee Management application to do the given below operations. Assume
 after implementation of these menus driven program, you can further improve the program with the help of stream ,lambda expression and functional interface.
 
 Use maven project, proper java coding convention ,exception handling wherever you feel you can use Java 8 also.
+
+## Exercise 7 -
+
+Create a Student table having column id, first_name, last_name, email in MYSQL or you can use in Memory H2 Database.
+
+With the help of JPA, Hibernate implement the given below use cases with table data.
+
+A. Insert a record into table
+B. Find a particular row data specific to a id from student table
+C. Find all the students data.
+D. Update a particular row with the given id.
+E. Delete a row with the given id.
